@@ -1,0 +1,119 @@
+form{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: 'helvetica';
+}
+h2{
+    text-decoration: cyan;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    text-decoration: darkblue;
+    margin-left: 100px;
+}
+p{
+    width: 200px;
+    text-decoration: darkblue;
+    margin-left: 120px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+.reg{
+    margin: 20px auto;
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+input[type=text], input[type=password]{
+    width: 90%;
+    font-size: 16px;
+    padding: 5px 20px 10px 5px;
+    margin-top: 10px;
+    background-color: lightgrey;
+    border-radius: 12px;
+
+}
+
+input[type=submit]{
+    width: 90%;
+    font-size: 16px;
+    padding: 5px 20px 3px;
+    margin-top: 25px;
+}
+.logins{
+    width: 350px;
+    margin: 0px auto;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+a{
+    width: 150px;
+    min-height: 40px;
+    text-decoration: none;
+    background-color: aquamarine;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 1px solid black;
+    font-family: helvetica;
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    display: block;
+}
+
+.message_form {
+    padding: 0;
+    width: 600px;
+    padding-bottom: 10px;
+}
+.message_form textarea{
+        width: 450px;
+        height: 120px;
+        margin-left: 20px;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .message_form input[type=submit]{
+        width: 170px;
+        color: white;
+        font-size: 16px;
+        padding: 5px 20px 10px 5px;
+        margin-top: 10px;
+        background-color: green;
+        border-radius: 12px;
+    } 
+
+    .comment_form {
+        padding: 0;
+        width: 400px;
+        padding-bottom: 10px;
+        margin-left: 90px;
+    }
+    .comment_form textarea{
+            width: 350px;
+            height: 120px;
+            margin-left: 20px;
+            padding-left: 0px;
+            margin-top: 20px;
+        }
+    
+        .comment_form input[type=submit]{
+            width: 170px;
+            color: white;
+            font-size: 16px;
+            padding: 5px 20px 10px 5px;
+            margin-top: 10px;
+            background-color:blue;
+            border-radius: 12px;
+        } 
